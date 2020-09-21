@@ -1,0 +1,16 @@
+  
+.home_section {
+    display: flex;
+    padding: 30px;
+  }
+
+
+
+  @media only screen and (max-width: 800px){
+
+    .home_section{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+  }
